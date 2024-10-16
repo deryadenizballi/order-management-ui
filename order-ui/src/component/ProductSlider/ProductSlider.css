@@ -1,0 +1,29 @@
+.product-slider {
+    width:40%;
+    max-width: 600px;
+  
+
+  }
+  
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+
+  .product-slider-title {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    padding:  10px;
+    font-weight: 600;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
