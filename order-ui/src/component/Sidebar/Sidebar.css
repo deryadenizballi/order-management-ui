@@ -1,13 +1,12 @@
-/* Sidebar.css */
 .sidebar {
   width: 280px;
   background-color: transparent;
   color: white;
   height: 98%;
   position: relative;
-  top: 2px;
+  top: 0;
   left: 0;
-  bottom: 2px;
+  bottom: 0;
   transition: width 0.3s;
   display: flex;
   align-items: center;
@@ -150,4 +149,11 @@
   align-items: center;
 
   cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px) {
+   .sidebar {
+    display: none;
+   }
 }
